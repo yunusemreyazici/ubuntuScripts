@@ -20,7 +20,7 @@ Script, `/etc/systemd/system/` dizininde `stunnel4.service` adlı bir dosya olu�
 2. Dosyaya çalıştırma izni verin:  
    ```bash
    chmod +x stunnel4-systemd-unit.sh
-
+   ./stunnel4-systemd-unit.sh
 
 
 Bu script, stunnel servisini düzgün bir şekilde yapılandıracak ve systemd üzerinden yönetebilmenizi sağlayacaktır.
